@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    background-color: red;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: orange;
+}
+
+main {
+    height: calc(100vh - 80px - 100px);
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
