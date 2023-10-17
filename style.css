@@ -8,11 +8,48 @@
     background-color: red;
 }
 
+.container {
+    color: white;
+}
+
+/* #Region Header */
+
 header {
     height: 80px;
     width: 100%;
     background-color: orange;
 }
+
+.logo {
+    padding: 15px;
+}
+
+.boolean {
+    width: 180px;
+    height: 40px;
+}
+
+/* #End Region Header  */
+
+/* #Utility */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-sa {
+    justify-content: space-around;
+}
+
+.align-self-c {
+    align-self: center;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+/* #End Region Utility */
 
 main {
     height: calc(100vh - 80px - 100px);
