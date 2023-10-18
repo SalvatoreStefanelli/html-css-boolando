@@ -10,6 +10,7 @@
 
 .container {
     color: white;
+    width: 100%;
 }
 
 /* #Region Header */
@@ -42,6 +43,10 @@ header {
     justify-content: space-around;
 }
 
+.justify-content-c {
+    justify-content: center;
+}
+
 .align-self-c {
     align-self: center;
 }
@@ -64,14 +69,19 @@ main {
 }
 
 .card {
-    width: 200px;
-    margin: 2rem  0.25rem 0 0;
+    width: 300px;
+    margin: 2rem 0.25rem 0 0;
     position: relative;
     color: black;
 }
 
 .card img {
     width: 100%;
+}
+
+.card_down {
+    position: absolute;
+    left: 0;
 }
 
 .img_top {
@@ -135,8 +145,29 @@ main {
     color: grey;
 }
 
+/* End Region Main */
+
+/* Region Footer */
+
 footer {
     height: 100px;
     width: 100%;
     background-color: black;
 }
+
+footer .row_footer {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information h4 {
+    margin: 1rem 0;
+}
+
+.social h6 {
+    margin: 1rem 0;
+}
+
+
+/* End Region Footer */
