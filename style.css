@@ -20,6 +20,7 @@ header {
     width: 100%;
     background-color: orange;
     position: fixed;
+    z-index: 1000;
 }
 
 .logo {
@@ -28,7 +29,7 @@ header {
 
 .logo img {
     width: 180px;
-    height: 40px;
+    height: 3rem;
 }
 
 /* #End Region Header  */
@@ -76,12 +77,13 @@ main {
 }
 
 .card img {
-    width: 100%;
+    width: 100%;   
 }
 
 .card_down {
     position: absolute;
     left: 0;
+    margin-top: -0.25rem; 
 }
 
 .img_top {
@@ -111,6 +113,12 @@ main {
     bottom: 20px;
 }
 
+.green_6 {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
 .heart {
     background-color: white;
     position: absolute;
@@ -118,7 +126,7 @@ main {
     right: 0;
 }
 
-.img_top:hover {
+.card .img_top:hover {
     display: none;
 }
 
@@ -143,6 +151,7 @@ main {
 
 .original_price {
     color: grey;
+    text-decoration: line-through;
 }
 
 /* End Region Main */
@@ -153,6 +162,7 @@ footer {
     height: 100px;
     width: 100%;
     background-color: black;
+    margin-top: 3rem;
 }
 
 footer .row_footer {
