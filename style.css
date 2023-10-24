@@ -126,7 +126,7 @@ main {
     right: 0;
 }
 
-.card .img_top:hover {
+.card:hover .img_top {
     display: none;
 }
 
